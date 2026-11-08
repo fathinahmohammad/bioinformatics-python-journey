@@ -26,7 +26,7 @@ invalid_bases = ""
 
 # 6. Check every nucleotide
 
-for nucelotide in dna:
+for nucleotide in dna:
     if nucleotide not in valid_bases:
         invalid_bases = invalid_bases + nucleotide
 
